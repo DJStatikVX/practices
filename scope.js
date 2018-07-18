@@ -1,4 +1,4 @@
-// wrong code due to scope error at line 13
+// wrong code due to scope error at line 14
 
 var laundryRoom = 'Basement';
 var mailRoom = 'Room 1A';
