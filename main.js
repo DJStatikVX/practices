@@ -17,7 +17,7 @@ function main() {
     $(this).next().slideToggle(400); // project list will be shown with an animation when clicking button (.toggle()) does it without animation
     $(this).toggleClass('active'); // when clicking projects-button class, its CSS style will be changed to active class'
     $(this).text('Projects Viewed'); // original text of projects-button class is 'Current Projects' and this will change when clicked
-  })
+  });
 }
 
 $(document).ready(main); // when HTML & CSS are loaded, trigger main() function
