@@ -43,6 +43,7 @@ function determineWinner(userChoice, computerChoice) {
   
   if (userChoice === "bomb") {
     return "You won!";
+  }
 }
 
 function playGame() {
